@@ -3,7 +3,8 @@
 This is essentially a personal mish-mash between the [Skeleton framework](https://github.com/dhgamache/Skeleton) and [lazerwalker's sassified version](https://github.com/lazerwalker/Skeleton-SASS/).
 
 * All scss files are placed in the stylesheets/scss directory
-* Generated stylesheet is in stylesheets/css/style.css
+* Generated stylesheet is stylesheets/style.css
+* Meddle all you want with the layout.scss file
 
 
 ## Usage
