@@ -16,9 +16,18 @@
 
 /* #Site Styles
 ================================================== */
+.container{ @include container; }
+
+#header {
+  @include columns(16);
+}
+#col1, #col2, #col3 {
+ @include columns(5.33);
+}
 
 /* #Page Styles
 ================================================== */
+
 
 /* #Media Queries
 ================================================== */
