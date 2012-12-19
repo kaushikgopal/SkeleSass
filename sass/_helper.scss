@@ -1,0 +1,36 @@
+/*
+* SkeleSass V1.1
+*
+*/
+
+/* Table of Content
+==================================================
+  #Reset & Basics
+  #Variable Definitions
+  #Mixins
+  #Misc */
+
+
+/* #Reset & Basics
+================================================== */
+@import "compass/reset";
+
+// apply a natural box layout model to all elements
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/* #Variable Definitions
+================================================== */
+$sans: "PT Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif: "PT Serif", Georgia, Times, "Times New Roman", serif !default;
+$mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;
+
+/* #Mixins
+================================================== */
+
+
+/* #Misc
+================================================== */
+  .remove-bottom { margin-bottom: 0 !important; }
+  .half-bottom { margin-bottom: 10px !important; }
+  .add-bottom { margin-bottom: 20px !important; }
