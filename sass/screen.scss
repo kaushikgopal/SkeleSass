@@ -1,5 +1,14 @@
+/*
+* SkeleSass V1.0
+* Kaushik Gopal
+* https://github.com/kaushikgopal/SkeleSass
+*
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
+
 @import "helper";     // reset, var def, mixins, misc helpers
 
 @import "skeleton";   // skeleton framework
-@import "base";       // basic theme of the site
 @import "layout";     // layout of the site
+@import "base";       // basic theme of the site

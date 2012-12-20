@@ -1,4 +1,12 @@
 /*
+* SkeleSass V1.0
+* Kaushik Gopal
+* https://github.com/kaushikgopal/SkeleSass
+*
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
+/*
 * SkeleSass V1.1
 *
 */
@@ -104,12 +112,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /*
-* Skeleton-SASS V1.0
+* SkeleSass V1.0
+* Kaushik Gopal
+* https://github.com/kaushikgopal/SkeleSass
+*
+* Adapted from Skeleton-SASS V1.0
 * Copyright 2012 by Michael Lazer-Walker
 * https://github.com/lazerwalker/Skeleton-Sass
 *
-* Based off of Skeleton v1.1:
-* https://github.com/dhgamache/Skeleton
+* Adapted from Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
 *
 * Free to use under the MIT license.
 * http://www.opensource.org/licenses/mit-license.php
@@ -125,10 +138,142 @@ or wrap each row of columns in a @include row */
 /* You can also use a @include clear to clear columns */
 /*
 * SkeleSass V1.0
+* Kaushik Gopal
+* https://github.com/kaushikgopal/SkeleSass
 *
 * Adapted from Skeleton V1.2
 * Copyright 2011, Dave Gamache
 * www.getskeleton.com
+*
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+/* #Site Styles
+================================================== */
+/* line 23, ../sass/_layout.scss */
+.container {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  width: 960px;
+}
+/* line 42, ../sass/_skeleton.scss */
+.container:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* line 23, ../sass/_layout.scss */
+  .container {
+    width: 768px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 23, ../sass/_layout.scss */
+  .container {
+    width: 300px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 23, ../sass/_layout.scss */
+  .container {
+    width: 420px;
+  }
+}
+
+/* line 25, ../sass/_layout.scss */
+#header {
+  float: left;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 940px;
+}
+@media only screen and (max-width: 767px) {
+  /* line 25, ../sass/_layout.scss */
+  #header {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* line 25, ../sass/_layout.scss */
+  #header {
+    width: 748px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 25, ../sass/_layout.scss */
+  #header {
+    width: 300px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 25, ../sass/_layout.scss */
+  #header {
+    width: 420px;
+  }
+}
+
+/* line 28, ../sass/_layout.scss */
+#col1, #col2, #col3 {
+  float: left;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 299.8px;
+}
+@media only screen and (max-width: 767px) {
+  /* line 28, ../sass/_layout.scss */
+  #col1, #col2, #col3 {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* line 28, ../sass/_layout.scss */
+  #col1, #col2, #col3 {
+    width: 235.84px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 28, ../sass/_layout.scss */
+  #col1, #col2, #col3 {
+    width: 300px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 28, ../sass/_layout.scss */
+  #col1, #col2, #col3 {
+    width: 420px;
+  }
+}
+
+/* #Page Styles
+================================================== */
+/* #Media Queries
+================================================== */
+/* Smaller than standard 960 (devices and browsers) */
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+/* All Mobile Sizes (devices and browser) */
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+/*
+* SkeleSass V1.0
+* Kaushik Gopal
+* https://github.com/kaushikgopal/SkeleSass
+*
+* Adapted from Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+*
 * Free to use under the MIT license.
 * http://www.opensource.org/licenses/mit-license.php
 */
@@ -160,98 +305,98 @@ or wrap each row of columns in a @include row */
   font-style: normal;
 }
 
-/* line 34, ../sass/_base.scss */
+/* line 37, ../sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #181818;
   font-family: "PT Serif", Georgia, Times, "Times New Roman", serif;
   font-weight: normal;
 }
 
-/* line 38, ../sass/_base.scss */
+/* line 41, ../sass/_base.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit;
 }
 
-/* line 39, ../sass/_base.scss */
+/* line 42, ../sass/_base.scss */
 h1 {
   font-size: 46px;
   line-height: 50px;
   margin-bottom: 14px;
 }
 
-/* line 40, ../sass/_base.scss */
+/* line 43, ../sass/_base.scss */
 h2 {
   font-size: 35px;
   line-height: 40px;
   margin-bottom: 10px;
 }
 
-/* line 41, ../sass/_base.scss */
+/* line 44, ../sass/_base.scss */
 h3 {
   font-size: 28px;
   line-height: 34px;
   margin-bottom: 8px;
 }
 
-/* line 42, ../sass/_base.scss */
+/* line 45, ../sass/_base.scss */
 h4 {
   font-size: 21px;
   line-height: 30px;
   margin-bottom: 4px;
 }
 
-/* line 43, ../sass/_base.scss */
+/* line 46, ../sass/_base.scss */
 h5 {
   font-size: 17px;
   line-height: 24px;
 }
 
-/* line 44, ../sass/_base.scss */
+/* line 47, ../sass/_base.scss */
 h6 {
   font-size: 14px;
   line-height: 21px;
 }
 
-/* line 45, ../sass/_base.scss */
+/* line 48, ../sass/_base.scss */
 .subheader {
   color: #777;
 }
 
-/* line 47, ../sass/_base.scss */
+/* line 50, ../sass/_base.scss */
 p {
   margin: 0 0 20px 0;
 }
 
-/* line 48, ../sass/_base.scss */
+/* line 51, ../sass/_base.scss */
 p img {
   margin: 0;
 }
 
-/* line 49, ../sass/_base.scss */
+/* line 52, ../sass/_base.scss */
 p.lead {
   font-size: 21px;
   line-height: 27px;
   color: #777;
 }
 
-/* line 51, ../sass/_base.scss */
+/* line 54, ../sass/_base.scss */
 em {
   font-style: italic;
 }
 
-/* line 52, ../sass/_base.scss */
+/* line 55, ../sass/_base.scss */
 strong {
   font-weight: bold;
   color: #333;
 }
 
-/* line 53, ../sass/_base.scss */
+/* line 56, ../sass/_base.scss */
 small {
   font-size: 80%;
 }
 
 /*	Blockquotes  */
-/* line 56, ../sass/_base.scss */
+/* line 59, ../sass/_base.scss */
 blockquote, blockquote p {
   font-size: 17px;
   line-height: 24px;
@@ -259,31 +404,31 @@ blockquote, blockquote p {
   font-style: italic;
 }
 
-/* line 57, ../sass/_base.scss */
+/* line 60, ../sass/_base.scss */
 blockquote {
   margin: 0 0 20px;
   padding: 9px 20px 0 19px;
   border-left: 1px solid #ddd;
 }
 
-/* line 58, ../sass/_base.scss */
+/* line 61, ../sass/_base.scss */
 blockquote cite {
   display: block;
   font-size: 12px;
   color: #555;
 }
 
-/* line 59, ../sass/_base.scss */
+/* line 62, ../sass/_base.scss */
 blockquote cite:before {
   content: "\2014 \0020";
 }
 
-/* line 60, ../sass/_base.scss */
+/* line 63, ../sass/_base.scss */
 blockquote cite a, blockquote cite a:visited, blockquote cite a:visited {
   color: #555;
 }
 
-/* line 62, ../sass/_base.scss */
+/* line 65, ../sass/_base.scss */
 hr {
   border: solid #ddd;
   border-width: 1px 0 0;
@@ -294,7 +439,7 @@ hr {
 
 /* #Basic Styles
 ================================================== */
-/* line 67, ../sass/_base.scss */
+/* line 70, ../sass/_base.scss */
 body {
   background: #fff;
   font: 14px/21px "PT Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -306,92 +451,92 @@ body {
 
 /* #Links
 ================================================== */
-/* line 77, ../sass/_base.scss */
+/* line 80, ../sass/_base.scss */
 a, a:visited {
   color: #333;
   text-decoration: underline;
   outline: 0;
 }
 
-/* line 78, ../sass/_base.scss */
+/* line 81, ../sass/_base.scss */
 a:hover, a:focus {
   color: #000;
 }
 
-/* line 79, ../sass/_base.scss */
+/* line 82, ../sass/_base.scss */
 p a, p a:visited {
   line-height: inherit;
 }
 
 /* #Lists
 ================================================== */
-/* line 84, ../sass/_base.scss */
+/* line 87, ../sass/_base.scss */
 ul, ol {
   margin-bottom: 20px;
 }
 
-/* line 85, ../sass/_base.scss */
+/* line 88, ../sass/_base.scss */
 ul {
   list-style: none outside;
 }
 
-/* line 86, ../sass/_base.scss */
+/* line 89, ../sass/_base.scss */
 ol {
   list-style: decimal;
 }
 
-/* line 87, ../sass/_base.scss */
+/* line 90, ../sass/_base.scss */
 ol, ul.square, ul.circle, ul.disc {
   margin-left: 30px;
 }
 
-/* line 88, ../sass/_base.scss */
+/* line 91, ../sass/_base.scss */
 ul.square {
   list-style: square outside;
 }
 
-/* line 89, ../sass/_base.scss */
+/* line 92, ../sass/_base.scss */
 ul.circle {
   list-style: circle outside;
 }
 
-/* line 90, ../sass/_base.scss */
+/* line 93, ../sass/_base.scss */
 ul.disc {
   list-style: disc outside;
 }
 
-/* line 92, ../sass/_base.scss */
+/* line 95, ../sass/_base.scss */
 ul ul, ul ol,
 ol ol, ol ul {
   margin: 4px 0 5px 30px;
   font-size: 90%;
 }
 
-/* line 94, ../sass/_base.scss */
+/* line 97, ../sass/_base.scss */
 ul ul li, ul ol li,
 ol ol li, ol ul li {
   margin-bottom: 6px;
 }
 
-/* line 95, ../sass/_base.scss */
+/* line 98, ../sass/_base.scss */
 li {
   line-height: 18px;
   margin-bottom: 12px;
 }
 
-/* line 96, ../sass/_base.scss */
+/* line 99, ../sass/_base.scss */
 ul.large li {
   line-height: 21px;
 }
 
-/* line 97, ../sass/_base.scss */
+/* line 100, ../sass/_base.scss */
 li p {
   line-height: 21px;
 }
 
 /* #Images
 ================================================== */
-/* line 102, ../sass/_base.scss */
+/* line 105, ../sass/_base.scss */
 img.scale-with-grid {
   max-width: 100%;
   height: auto;
@@ -399,7 +544,7 @@ img.scale-with-grid {
 
 /* #Buttons
 ================================================== */
-/* line 114, ../sass/_base.scss */
+/* line 117, ../sass/_base.scss */
 .button,
 button,
 input[type="submit"],
@@ -438,7 +583,7 @@ input[type="button"] {
   font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 144, ../sass/_base.scss */
+/* line 147, ../sass/_base.scss */
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -464,7 +609,7 @@ input[type="button"]:hover {
   border-left: 1px solid #aaa;
 }
 
-/* line 161, ../sass/_base.scss */
+/* line 164, ../sass/_base.scss */
 .button:active,
 button:active,
 input[type="submit"]:active,
@@ -487,7 +632,7 @@ input[type="button"]:active {
   /* W3C */
 }
 
-/* line 175, ../sass/_base.scss */
+/* line 178, ../sass/_base.scss */
 .button.full-width,
 button.full-width,
 input[type="submit"].full-width,
@@ -500,7 +645,7 @@ input[type="button"].full-width {
 }
 
 /* Fix for odd Mozilla border & padding issues */
-/* line 183, ../sass/_base.scss */
+/* line 186, ../sass/_base.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -509,17 +654,17 @@ input::-moz-focus-inner {
 
 /* #Forms
 ================================================== */
-/* line 192, ../sass/_base.scss */
+/* line 195, ../sass/_base.scss */
 form {
   margin-bottom: 20px;
 }
 
-/* line 194, ../sass/_base.scss */
+/* line 197, ../sass/_base.scss */
 fieldset {
   margin-bottom: 20px;
 }
 
-/* line 200, ../sass/_base.scss */
+/* line 203, ../sass/_base.scss */
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -541,12 +686,12 @@ select {
   background: #fff;
 }
 
-/* line 215, ../sass/_base.scss */
+/* line 218, ../sass/_base.scss */
 select {
   padding: 0;
 }
 
-/* line 220, ../sass/_base.scss */
+/* line 223, ../sass/_base.scss */
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
@@ -558,12 +703,12 @@ textarea:focus {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
 
-/* line 226, ../sass/_base.scss */
+/* line 229, ../sass/_base.scss */
 textarea {
   min-height: 60px;
 }
 
-/* line 229, ../sass/_base.scss */
+/* line 232, ../sass/_base.scss */
 label,
 legend {
   display: block;
@@ -571,98 +716,20 @@ legend {
   font-size: 13px;
 }
 
-/* line 233, ../sass/_base.scss */
+/* line 236, ../sass/_base.scss */
 select {
   width: 220px;
 }
 
-/* line 235, ../sass/_base.scss */
+/* line 238, ../sass/_base.scss */
 input[type="checkbox"] {
   display: inline;
 }
 
-/* line 238, ../sass/_base.scss */
+/* line 241, ../sass/_base.scss */
 label span,
 legend span {
   font-weight: normal;
   font-size: 13px;
   color: #444;
 }
-
-/*
-* Skeleton V1.2
-* Copyright 2011, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 6/20/2012
-*/
-/* Table of Content
-==================================================
-	#Site Styles
-	#Page Styles
-	#Media Queries
-	#Font-Face */
-/* #Site Styles
-================================================== */
-/* line 19, ../sass/_layout.scss */
-.container {
-  position: relative;
-  margin: 0 auto;
-  padding: 0;
-  width: 960px;
-}
-/* line 37, ../sass/_skeleton.scss */
-.container:after {
-  content: "\0020";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-  /* line 19, ../sass/_layout.scss */
-  .container {
-    width: 768px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  /* line 19, ../sass/_layout.scss */
-  .container {
-    width: 300px;
-  }
-}
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 19, ../sass/_layout.scss */
-  .container {
-    width: 420px;
-  }
-}
-
-/* line 21, ../sass/_layout.scss */
-#header {
-  -webkit-columns: 16;
-  -moz-columns: 16;
-  -ms-columns: 16;
-  -o-columns: 16;
-  columns: 16;
-}
-
-/* line 24, ../sass/_layout.scss */
-#col1, #col2, #col3 {
-  -webkit-columns: 5.33;
-  -moz-columns: 5.33;
-  -ms-columns: 5.33;
-  -o-columns: 5.33;
-  columns: 5.33;
-}
-
-/* #Page Styles
-================================================== */
-/* #Media Queries
-================================================== */
-/* Smaller than standard 960 (devices and browsers) */
-/* Tablet Portrait size to standard 960 (devices and browsers) */
-/* All Mobile Sizes (devices and browser) */
-/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
