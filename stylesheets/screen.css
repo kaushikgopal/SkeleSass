@@ -7,8 +7,12 @@
 * http://www.opensource.org/licenses/mit-license.php
 */
 /*
-* SkeleSass V1.1
+* SkeleSass V1.0
+* Kaushik Gopal
+* https://github.com/kaushikgopal/SkeleSass
 *
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
 */
 /* Table of Content
 ==================================================
@@ -83,7 +87,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 19, ../sass/_helper.scss */
+/* line 23, ../sass/_helper.scss */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -96,17 +100,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 ================================================== */
 /* #Misc
 ================================================== */
-/* line 34, ../sass/_helper.scss */
+/* line 48, ../sass/_helper.scss */
 .remove-bottom {
   margin-bottom: 0 !important;
 }
 
-/* line 35, ../sass/_helper.scss */
+/* line 49, ../sass/_helper.scss */
 .half-bottom {
   margin-bottom: 10px !important;
 }
 
-/* line 36, ../sass/_helper.scss */
+/* line 50, ../sass/_helper.scss */
 .add-bottom {
   margin-bottom: 20px !important;
 }
@@ -152,11 +156,10 @@ or wrap each row of columns in a @include row */
 ==================================================
 	#Site Styles
 	#Page Styles
-	#Media Queries
-	#Font-Face */
+	#Media Queries */
 /* #Site Styles
 ================================================== */
-/* line 23, ../sass/_layout.scss */
+/* line 22, ../sass/_layout.scss */
 .container {
   position: relative;
   margin: 0 auto;
@@ -172,25 +175,25 @@ or wrap each row of columns in a @include row */
   visibility: hidden;
 }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-  /* line 23, ../sass/_layout.scss */
+  /* line 22, ../sass/_layout.scss */
   .container {
     width: 768px;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 23, ../sass/_layout.scss */
+  /* line 22, ../sass/_layout.scss */
   .container {
     width: 300px;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 23, ../sass/_layout.scss */
+  /* line 22, ../sass/_layout.scss */
   .container {
     width: 420px;
   }
 }
 
-/* line 25, ../sass/_layout.scss */
+/* line 24, ../sass/_layout.scss */
 #header {
   float: left;
   display: inline;
@@ -199,31 +202,31 @@ or wrap each row of columns in a @include row */
   width: 940px;
 }
 @media only screen and (max-width: 767px) {
-  /* line 25, ../sass/_layout.scss */
+  /* line 24, ../sass/_layout.scss */
   #header {
     margin: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-  /* line 25, ../sass/_layout.scss */
+  /* line 24, ../sass/_layout.scss */
   #header {
     width: 748px;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 25, ../sass/_layout.scss */
+  /* line 24, ../sass/_layout.scss */
   #header {
     width: 300px;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 25, ../sass/_layout.scss */
+  /* line 24, ../sass/_layout.scss */
   #header {
     width: 420px;
   }
 }
 
-/* line 28, ../sass/_layout.scss */
+/* line 27, ../sass/_layout.scss */
 #col1, #col2, #col3 {
   float: left;
   display: inline;
@@ -232,25 +235,25 @@ or wrap each row of columns in a @include row */
   width: 299.8px;
 }
 @media only screen and (max-width: 767px) {
-  /* line 28, ../sass/_layout.scss */
+  /* line 27, ../sass/_layout.scss */
   #col1, #col2, #col3 {
     margin: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-  /* line 28, ../sass/_layout.scss */
+  /* line 27, ../sass/_layout.scss */
   #col1, #col2, #col3 {
     width: 235.84px;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 28, ../sass/_layout.scss */
+  /* line 27, ../sass/_layout.scss */
   #col1, #col2, #col3 {
     width: 300px;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 28, ../sass/_layout.scss */
+  /* line 27, ../sass/_layout.scss */
   #col1, #col2, #col3 {
     width: 420px;
   }
@@ -289,7 +292,6 @@ or wrap each row of columns in a @include row */
 	#Misc */
 /* #Typography
 ================================================== */
-/*  Font Face */
 @font-face {
   font-family: "entypo-social";
   src: url('/stylesheets/fonts/entypo-social.eot');
@@ -305,98 +307,97 @@ or wrap each row of columns in a @include row */
   font-style: normal;
 }
 
-/* line 37, ../sass/_base.scss */
+/* line 35, ../sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #181818;
   font-family: "PT Serif", Georgia, Times, "Times New Roman", serif;
   font-weight: normal;
 }
 
-/* line 41, ../sass/_base.scss */
+/* line 39, ../sass/_base.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit;
 }
 
-/* line 42, ../sass/_base.scss */
+/* line 40, ../sass/_base.scss */
 h1 {
   font-size: 46px;
   line-height: 50px;
   margin-bottom: 14px;
 }
 
-/* line 43, ../sass/_base.scss */
+/* line 41, ../sass/_base.scss */
 h2 {
   font-size: 35px;
   line-height: 40px;
   margin-bottom: 10px;
 }
 
-/* line 44, ../sass/_base.scss */
+/* line 42, ../sass/_base.scss */
 h3 {
   font-size: 28px;
   line-height: 34px;
   margin-bottom: 8px;
 }
 
-/* line 45, ../sass/_base.scss */
+/* line 43, ../sass/_base.scss */
 h4 {
   font-size: 21px;
   line-height: 30px;
   margin-bottom: 4px;
 }
 
-/* line 46, ../sass/_base.scss */
+/* line 44, ../sass/_base.scss */
 h5 {
   font-size: 17px;
   line-height: 24px;
 }
 
-/* line 47, ../sass/_base.scss */
+/* line 45, ../sass/_base.scss */
 h6 {
   font-size: 14px;
   line-height: 21px;
 }
 
-/* line 48, ../sass/_base.scss */
+/* line 46, ../sass/_base.scss */
 .subheader {
   color: #777;
 }
 
-/* line 50, ../sass/_base.scss */
+/* line 48, ../sass/_base.scss */
 p {
   margin: 0 0 20px 0;
 }
 
-/* line 51, ../sass/_base.scss */
+/* line 49, ../sass/_base.scss */
 p img {
   margin: 0;
 }
 
-/* line 52, ../sass/_base.scss */
+/* line 50, ../sass/_base.scss */
 p.lead {
   font-size: 21px;
   line-height: 27px;
   color: #777;
 }
 
-/* line 54, ../sass/_base.scss */
+/* line 52, ../sass/_base.scss */
 em {
   font-style: italic;
 }
 
-/* line 55, ../sass/_base.scss */
+/* line 53, ../sass/_base.scss */
 strong {
   font-weight: bold;
   color: #333;
 }
 
-/* line 56, ../sass/_base.scss */
+/* line 54, ../sass/_base.scss */
 small {
   font-size: 80%;
 }
 
-/*	Blockquotes  */
-/* line 59, ../sass/_base.scss */
+/* line 57, ../sass/_base.scss */
 blockquote, blockquote p {
   font-size: 17px;
   line-height: 24px;
@@ -404,31 +405,31 @@ blockquote, blockquote p {
   font-style: italic;
 }
 
-/* line 60, ../sass/_base.scss */
+/* line 58, ../sass/_base.scss */
 blockquote {
   margin: 0 0 20px;
   padding: 9px 20px 0 19px;
   border-left: 1px solid #ddd;
 }
 
-/* line 61, ../sass/_base.scss */
+/* line 59, ../sass/_base.scss */
 blockquote cite {
   display: block;
   font-size: 12px;
   color: #555;
 }
 
-/* line 62, ../sass/_base.scss */
+/* line 60, ../sass/_base.scss */
 blockquote cite:before {
   content: "\2014 \0020";
 }
 
-/* line 63, ../sass/_base.scss */
+/* line 61, ../sass/_base.scss */
 blockquote cite a, blockquote cite a:visited, blockquote cite a:visited {
   color: #555;
 }
 
-/* line 65, ../sass/_base.scss */
+/* line 63, ../sass/_base.scss */
 hr {
   border: solid #ddd;
   border-width: 1px 0 0;
@@ -439,7 +440,7 @@ hr {
 
 /* #Basic Styles
 ================================================== */
-/* line 70, ../sass/_base.scss */
+/* line 68, ../sass/_base.scss */
 body {
   background: #fff;
   font: 14px/21px "PT Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -451,92 +452,92 @@ body {
 
 /* #Links
 ================================================== */
-/* line 80, ../sass/_base.scss */
+/* line 78, ../sass/_base.scss */
 a, a:visited {
   color: #333;
   text-decoration: underline;
   outline: 0;
 }
 
-/* line 81, ../sass/_base.scss */
+/* line 79, ../sass/_base.scss */
 a:hover, a:focus {
   color: #000;
 }
 
-/* line 82, ../sass/_base.scss */
+/* line 80, ../sass/_base.scss */
 p a, p a:visited {
   line-height: inherit;
 }
 
 /* #Lists
 ================================================== */
-/* line 87, ../sass/_base.scss */
+/* line 85, ../sass/_base.scss */
 ul, ol {
   margin-bottom: 20px;
 }
 
-/* line 88, ../sass/_base.scss */
+/* line 86, ../sass/_base.scss */
 ul {
   list-style: none outside;
 }
 
-/* line 89, ../sass/_base.scss */
+/* line 87, ../sass/_base.scss */
 ol {
   list-style: decimal;
 }
 
-/* line 90, ../sass/_base.scss */
+/* line 88, ../sass/_base.scss */
 ol, ul.square, ul.circle, ul.disc {
   margin-left: 30px;
 }
 
-/* line 91, ../sass/_base.scss */
+/* line 89, ../sass/_base.scss */
 ul.square {
   list-style: square outside;
 }
 
-/* line 92, ../sass/_base.scss */
+/* line 90, ../sass/_base.scss */
 ul.circle {
   list-style: circle outside;
 }
 
-/* line 93, ../sass/_base.scss */
+/* line 91, ../sass/_base.scss */
 ul.disc {
   list-style: disc outside;
 }
 
-/* line 95, ../sass/_base.scss */
+/* line 93, ../sass/_base.scss */
 ul ul, ul ol,
 ol ol, ol ul {
   margin: 4px 0 5px 30px;
   font-size: 90%;
 }
 
-/* line 97, ../sass/_base.scss */
+/* line 95, ../sass/_base.scss */
 ul ul li, ul ol li,
 ol ol li, ol ul li {
   margin-bottom: 6px;
 }
 
-/* line 98, ../sass/_base.scss */
+/* line 96, ../sass/_base.scss */
 li {
   line-height: 18px;
   margin-bottom: 12px;
 }
 
-/* line 99, ../sass/_base.scss */
+/* line 97, ../sass/_base.scss */
 ul.large li {
   line-height: 21px;
 }
 
-/* line 100, ../sass/_base.scss */
+/* line 98, ../sass/_base.scss */
 li p {
   line-height: 21px;
 }
 
 /* #Images
 ================================================== */
-/* line 105, ../sass/_base.scss */
+/* line 103, ../sass/_base.scss */
 img.scale-with-grid {
   max-width: 100%;
   height: auto;
@@ -544,7 +545,7 @@ img.scale-with-grid {
 
 /* #Buttons
 ================================================== */
-/* line 117, ../sass/_base.scss */
+/* line 115, ../sass/_base.scss */
 .button,
 button,
 input[type="submit"],
@@ -583,7 +584,7 @@ input[type="button"] {
   font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 147, ../sass/_base.scss */
+/* line 145, ../sass/_base.scss */
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -609,7 +610,7 @@ input[type="button"]:hover {
   border-left: 1px solid #aaa;
 }
 
-/* line 164, ../sass/_base.scss */
+/* line 162, ../sass/_base.scss */
 .button:active,
 button:active,
 input[type="submit"]:active,
@@ -632,7 +633,7 @@ input[type="button"]:active {
   /* W3C */
 }
 
-/* line 178, ../sass/_base.scss */
+/* line 176, ../sass/_base.scss */
 .button.full-width,
 button.full-width,
 input[type="submit"].full-width,
@@ -645,7 +646,7 @@ input[type="button"].full-width {
 }
 
 /* Fix for odd Mozilla border & padding issues */
-/* line 186, ../sass/_base.scss */
+/* line 184, ../sass/_base.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -654,17 +655,17 @@ input::-moz-focus-inner {
 
 /* #Forms
 ================================================== */
-/* line 195, ../sass/_base.scss */
+/* line 193, ../sass/_base.scss */
 form {
   margin-bottom: 20px;
 }
 
-/* line 197, ../sass/_base.scss */
+/* line 195, ../sass/_base.scss */
 fieldset {
   margin-bottom: 20px;
 }
 
-/* line 203, ../sass/_base.scss */
+/* line 201, ../sass/_base.scss */
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -686,12 +687,12 @@ select {
   background: #fff;
 }
 
-/* line 218, ../sass/_base.scss */
+/* line 216, ../sass/_base.scss */
 select {
   padding: 0;
 }
 
-/* line 223, ../sass/_base.scss */
+/* line 221, ../sass/_base.scss */
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
@@ -703,12 +704,12 @@ textarea:focus {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
 
-/* line 229, ../sass/_base.scss */
+/* line 227, ../sass/_base.scss */
 textarea {
   min-height: 60px;
 }
 
-/* line 232, ../sass/_base.scss */
+/* line 230, ../sass/_base.scss */
 label,
 legend {
   display: block;
@@ -716,20 +717,37 @@ legend {
   font-size: 13px;
 }
 
-/* line 236, ../sass/_base.scss */
+/* line 234, ../sass/_base.scss */
 select {
   width: 220px;
 }
 
-/* line 238, ../sass/_base.scss */
+/* line 236, ../sass/_base.scss */
 input[type="checkbox"] {
   display: inline;
 }
 
-/* line 241, ../sass/_base.scss */
+/* line 239, ../sass/_base.scss */
 label span,
 legend span {
   font-weight: normal;
   font-size: 13px;
   color: #444;
 }
+
+/*
+* SkeleSass V1.0
+* Kaushik Gopal
+* https://github.com/kaushikgopal/SkeleSass
+*
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
+/* Table of Content
+==================================================
+  #Site wide styles
+  #Page specific styles */
+/* #Site wide styles
+================================================== */
+/* #Page specific styles
+================================================== */
