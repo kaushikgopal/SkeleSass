@@ -4,7 +4,7 @@ This is essentially a personal mish-mash between the [Skeleton framework](https:
 
 * All scss files are placed in the sass directory
 * Generated stylesheet is stylesheets/screen.css
-* Meddle all you want with the base.scss file for your customizations
+* Meddle all you want with the _custom.scss file for your specific customizations
 
 
 ## Installation
