@@ -28,8 +28,13 @@
 
 // ---- Font Face --------
 // Entypo pictograms by Daniel Bruce — www.entypo.com
-  @include font-face('entypo-social', inline-font-files('entypo-social.woff', woff, 'entypo-social.ttf', truetype), 'entypo-social.eot', normal, normal);
-  @include font-face('entypo-social', font-files('entypo-social.svg#entypo-social'), $weight: normal, $style: normal);
+@font-face{
+  font-family: 'entypo-social';
+  src: font-url('entypo-social.eot');
+  src: local('entypo-social'), font-url('entypo-social.eot?#iefix') format("embedded-opentype"), font-url('entypo-social.woff') format("woff"), font-url('entypo-social.ttf') format("truetype"), font-url('entypo-social.svg#entypo-social') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 
 // ---- Basic Type --------
 	h1, h2, h3, h4, h5, h6 {
