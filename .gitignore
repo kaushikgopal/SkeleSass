@@ -1,2 +1,4 @@
-sass/_custom.scss
-sass/_layout.scss
+# uncomment these once inside your project
+# sass/_helper.scss
+# sass/_custom_layout.scss
+# sass/_custom_style.scss
