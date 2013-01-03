@@ -7,9 +7,10 @@
 * http://www.opensource.org/licenses/mit-license.php
 */
 
-@import "helper";     // reset, var def, mixins, misc helpers
+@import "helper";               // reset, variables and mixins
 
-@import "skeleton";   // skeleton framework
-@import "layout";     // layout of the site
-@import "base";       // styles for base elements like buttons, forms, etc.
-@import "custom";     // styles for base elements like buttons, forms, etc.
+@import "skeleton_framework";   // the skeleton responsive framework
+@import "custom_layout";        // layout styling for your site
+
+@import "base_style";        // styles for base elements like buttons, forms, etc.
+@import "custom_style";         // all other custom styling
