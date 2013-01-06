@@ -7,48 +7,73 @@
 * http://www.opensource.org/licenses/mit-license.php
 */
 
-/* Table of Content
-==================================================
-  #Reset & Basics
-  #Variable Definitions
-  #Mixins
-  #Misc */
 
+// ====================================================
+//   Table of Content
+// ====================================================
+// * Reset & Basics
+// * Variable Definitions
+// * Mixins
+// * Misc
 
-/* #Reset & Basics
-================================================== */
+// ====================================================
+//   Reset & Basics
+// ====================================================
+
 @import "compass/reset";
 
-// apply a natural box layout model to all elements
+// ---- apply natural box layout ----------------------
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 
-/* #Variable Definitions
-================================================== */
+// ====================================================
+//   Variable Definitions
+// ====================================================
 
-// ---- Type definitions --------
+// ---- Color Palette ---------------------------------
+
+
+// ---- Type definitions ------------------------------
+
 $fonts-path:   "../fonts" !default;
 $sans: "PT Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serif: "PT Serif", Georgia, Times, "Times New Roman", serif !default;
 $mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;
 $icon: "entypo-social";
 
-// ---- Color Palette --------
+// ---- Misc ------------------------------------------
 
 
-// ---------- Misc -----------
+// ====================================================
+//   Mixins
+// ====================================================
 
-
-
-/* #Mixins
-================================================== */
 @mixin scale-with-grid{
   max-width: 100%;
   height: auto;
 }
 
-/* #Misc
-================================================== */
+
+// ---- micro clearfix (http://nicolasgallagher.com/micro-clearfix-hack)
+
+@mixin clearfix-micro() {
+  & {
+    *zoom: 1;
+  }
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// ====================================================
+//   Misc Class helpers
+// ====================================================
+
 .remove-bottom { margin-bottom: 0 !important; }
 .half-bottom { margin-bottom: 10px !important; }
 .add-bottom { margin-bottom: 20px !important; }
