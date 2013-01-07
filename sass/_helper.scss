@@ -81,3 +81,8 @@ $icon: "entypo-social";
 .txtac { text-align: center}
 .txtal { text-align: left}
 .txtar { text-align: right}
+
+// ---- Hide visually and from screenreaders, but maintain layout
+.invisible { visibility: hidden; }
+// ---- Hide from both screenreaders and browsers: h5bp.com/u
+.hidden { display: none !important; @extend .invisible; }
